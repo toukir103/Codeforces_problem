@@ -142,7 +142,6 @@ int main()
          else if (v[i]==0 && robin_has>0)
          {
             ans++;
-          E
          }
 
       }
