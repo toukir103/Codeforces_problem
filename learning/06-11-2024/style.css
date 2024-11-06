@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background {
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/8679597/pexels-photo-8679597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px) brightness(0.5);
+    position: relative;
+    overflow: hidden;
+}
