@@ -157,42 +157,6 @@ int toggle(int state)
 int main()
 {
     optimize();
-    int t;
-    cin>>t;
-    while (t--)
-    {
-        int n,m;
-        cin>>n>>m;
-        vector<int>v;
-       int total_length=0;
-       int ans=0;
-
-        for (int i = 0; i < n; i++)
-        {
-           string s;
-           cin>>s;
-           v.push_back(s.size());
-
-        }
-        for (int i = 0; i < n; i++)
-        {
-           if (total_length+v[i]<=m)
-           {
-              total_length+=v[i];
-              ans++;
-           }
-           else
-           {
-            break;
-           }
-           
-        }
-        
-       
-        cout<<ans<<endl;
-
-    }
-    
 
    
     return 0;

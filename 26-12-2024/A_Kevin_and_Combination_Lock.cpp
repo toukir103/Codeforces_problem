@@ -1,12 +1,11 @@
 // =========================================================
-//                   In the Name of ALLAH                  
+//                   In the Name of ALLAH
 // =========================================================
-//                   Name    : MD. Toukir Ahmed            
-//                   ID      : CS-2203078                 
-//                   Gmail   : toukirahmed.th@gmail.com    
-//                   Contact : 01306031982                
+//                   Name    : MD. Toukir Ahmed
+//                   ID      : CS-2203078
+//                   Gmail   : toukirahmed.th@gmail.com
+//                   Contact : 01306031982
 // =========================================================
-
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -157,6 +156,21 @@ int toggle(int state)
 int main()
 {
     optimize();
-    cout<<10; 
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        long long x;
+        cin >> x;
+        if (x % 33 == 0)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
+    }
+
     return 0;
 }

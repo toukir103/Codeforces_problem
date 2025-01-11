@@ -157,6 +157,25 @@ int toggle(int state)
 int main()
 {
     optimize();
-    cout<<10; 
+    int t;
+    cin>>t;
+    while (t--)
+    {
+      long long x;
+      cin>>x;
+      if (x%33==0)
+      {
+        cout<<"YES"<<endl;
+      }
+      else
+      {
+        cout<<"NO"<<endl;
+      }
+      
+      
+    }
+    
+
+   
     return 0;
 }

@@ -157,6 +157,38 @@ int toggle(int state)
 int main()
 {
     optimize();
-    cout<<10; 
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        long long n;
+        int a, b, c;
+        cin >> n >> a >> b >> c;
+
+        int sum_3days = a + b + c;
+
+        int result = (n / sum_3days) * 3;
+
+        int rem = (n % sum_3days);
+
+        
+        if (rem == 0)
+        {
+            cout << result << endl; 
+        }
+        else if (rem <= a)
+        {
+            cout << result + 1 << endl; 
+        }
+        else if (rem <= a + b)
+        {
+            cout << result + 2 << endl; 
+        }
+        else
+        {
+            cout << result + 3 << endl; 
+        }
+    }
+
     return 0;
 }
